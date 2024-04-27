@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .background {
     background-color: cadetblue;
  }
@@ -45,4 +50,23 @@
    /* Set a fixed width for the button */
    .btn-lg {
      width: 100px; /* Adjust the value as needed */
+   }
+
+   /*** Media Queries ***/
+
+   /**
+   Extra small and small screen
+   **/
+   @media (max-width: 767px){
+    .medium-screen-layout{
+        display: none;
+    }
+   }
+       /**
+   Extra small and small screen
+   **/
+   @media (min-width: 768px){
+    .small-screen-layout{
+        display: none;
+    }
    }
