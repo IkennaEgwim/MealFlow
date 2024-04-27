@@ -1,0 +1,51 @@
+.background {
+    background-color: cadetblue;
+ }
+ 
+ .african-dish-image {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+ 
+ .col-4 {
+     background-color: brow
+ }
+ 
+ .welcome {
+     font-style: italic;
+     font-size: medium;
+     color: antiquewhite;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .website-name {
+     font-style: italic;
+     font-weight: 600;
+     font-size: x-large;
+     color: cyan;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .website-slogan {
+     font-style: italic;
+     font-size: medium;
+     color: bisque;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ /*.button-center {  
+     margin: auto;  
+ }*/
+ 
+ .row.justify-content-center {
+     justify-content: center;
+   }
+   
+   /* Set a fixed width for the button */
+   .btn-lg {
+     width: 100px; /* Adjust the value as needed */
+   }
