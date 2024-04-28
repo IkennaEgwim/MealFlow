@@ -27,259 +27,336 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-
 <body>
 
     <head>
-        <nav class="navbar navbar-expand-lg body-bg-secondary header-section">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-controls="menu-items"
-                    aria-expanded="false" data-bs-target="#menu-items" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg header-section">
+            <div class="container-fluid header-container">
+                <button class="navbar-toggler me-auto nav-icon" type="button" data-bs-toggle="collapse"
+                    aria-controls="menu-items" aria-expanded="false" data-bs-target="#menu-items"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="narvbar-brand" id="#brand-name">MealFlow</a>
-                <a class="narvbar-brand">
-                    <img src="./assets/icons/logo.svg" alt="Brand logo" width="30" height="24">
+                <a class="navbar-brand" href="./index.html" id="brand-name">MealFlow<img src="./assets/icons/logo.svg"
+                        alt="Brand logo" width="30" height="24">
                 </a>
-                <a class="narvbar-brand" href="#signup" alt="Sign up">
-                    <img src="./assets/icons/signup.svg" alt="Sign up" width="30" height="24">
-                </a>
-
-                <div class="collapse navbar-collaspe" id="menu-items">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/recipe.html">Recipes</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#plan-pricing">Plan and Pricing</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                <div class="collapse navbar-collapse" id="menu-items">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link menu-item active" href="/index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link menu-item" href="/recipe.html">Recipes</a></li>
+                        <li class="nav-item"><a class="nav-link menu-item" href="#gallery">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link menu-item" href="#plan-pricing">Plan and Pricing</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link menu-item" href="#contact">Contact Us</a></li>
                     </ul>
-
-
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search for recipes"
                             aria-label="Search">
-                        <button class="btn-outline-success" type="submit">
-                                <a class="narvbar-brand" href="#recipes"><img src="./assets/icons/search.png" alt="Search"
-                                   
-                                    width="30" height="24"></a>
+                        <button type="submit" class="search-icon-btn">
+                            <img src="./assets/icons/search.png" alt="Search" width="30" height="24">
                         </button>
                     </form>
                 </div>
-                  </div>
+                <button type="submit"><a href="#signup" alt="Sign up"
+                        class="btn btn-link btn-outline-success me-auto signup">
+                        <img src="./assets/icons/signup.svg" alt="Sign up" width="30" height="24">
+                    </a></button>
+            </div>
         </nav>
     </head>
-    <main class="main-container">
-        <!-- Hero Section -->
-        <div class="container-fluid background">
-            <div class="row border">
-                <div class="col-md-4 hero-details">
-                    <div class="row welcome">
-                        <h5>Welcome to:</h5>
-                    </div>
-                    <div class="row website-name">
-                        <h1>MealFlow</h1>
-                    </div>
-                    <div class="row website-slogan">
-                        <h5>....recipes made simple, flavour made extraordinary</h5>
-                    </div>
-                </div>
-                <div class="col-md-8 border">
-                    <img class="african-dish-image img-fluid" src="assets/images/west-African-food.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-auto">
-                <button class="btn btn-dark btn-sm px-2">Savor now</button>
-            </div>
-        </div>
-
-        <!-- Gallery Section -->
-        <section id="gallery-section">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <div class="row">
-                            <div class="col-12">
-                                <p> Pictures speak louder than words...</p>
+    <main>
+        <section class="main-container">
+            <!-- Hero Section -->
+            <section id="hero-section">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4 hero-details">
+                            <div class="row welcome py-2">
+                                <h5>Welcome to:</h5>
                             </div>
+                            <div class="row website-name  py-2">
+                                <h1>MealFlow Kitchen</h1>
+                            </div>
+                            <div class="row website-slogan  py-2">
+                                <h5>....recipes made simple, flavour made extraordinary</h5>
+                            </div>
+                            <button>
+                                <a href="#path-to-the-recipe" class="btn btn-primary">Savor now</a>
+                            </button>
+                        </div>
 
-                            <!-- Extra Medium and large screen -->
-                            <div class="row medium-screen-layout">
-                                <div class="col-md">
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="row">
+                        <div class="col-md-8 hero-image">
+                            <img class="african-dish-image img-fluid" src="assets/images/west-African-food.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Testimony Section -->
 
-                                                <div class="col-md-3">
-                                                    <div class="card">
-                                                        <img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg"
-                                                            alt="Egusi soup with pounded yam and assorted meats"
-                                                            class="card-img-top img-fluid rounded mix-auto d-block">
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Egusi soup with pounded yam and
-                                                                assorted
-                                                                meats
-                                                            </h5>
-                                                            <p class="card-text">This is a delicious, best experienced,
-                                                                one-in-a-lifetime recipe. You just have to try it.</p>
-                                                            <a href="#path-to-the-recipe" class="btn btn-primary">Dig
-                                                                in</a>
+            <!-- Gallery Section -->
+            <section id="gallery-section">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-12">
+                                    <p> Pictures speak louder than words...</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="row d-flex justify-content-between">
+                                                    <div class="col-md-3">
+                                                        <div class="row d-flex justify-content-between">
+                                                            <div class="card">
+                                                                <img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg"
+                                                                    alt="Egusi soup with pounded yam and assorted meats"
+                                                                    class="card-img-top img-fluid w-100 h-100">
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div class="row">
-                                                        <div class="card">
-                                                            <img src="./assets/images/Corn-and-pear.jpeg"
-                                                                alt="Corn-and-pear"
-                                                                class="card-img-top img-fluid rounded mix-auto d-block">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Corn and Pear
-                                                                </h5>
-                                                                <p class="card-text">Corn and pear - a match made in
-                                                                    heaven.</p>
-                                                                <a href="#path-to-the-recipe"
-                                                                    class="btn btn-primary">Try me
-                                                                    now</a>
+                                                        <div class="row d-flex justify-content-between">
+                                                            <div class="card mb-4">
+                                                                <img src="./assets/images/Egusi soup and fufu.jpeg"
+                                                                    alt="Egusi soup with pounded yam and assorted meats"
+                                                                    class="card-img-top img-fluid w-100 h-100">
+                                                                <div class="card-body gallery-card">
+                                                                    <h5 class="card-title">Egusi soup and Pounded Yam
+                                                                        and Orishi Orishi (Assorted Meats)
+                                                                    </h5>
+                                                                    <p class="card-text">Once-in-a-lifetime recipe,
+                                                                        "better-experienced-than-explained" meal. You
+                                                                        just have to try me!
+                                                                    </p>
+                                                                    <a href="#path-to-the-recipe"
+                                                                        class="btn btn-primary">Dig
+                                                                        in</a>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class="row">
-                                                    <div class="card">
-                                                        <img src="./assets/images/moi-moi.jpeg" alt="moi-moi"
-                                                            class="card-img-top img-fluid rounded mix-auto d-block">
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Moi-Moi
-                                                            </h5>
-                                                            <p class="card-text">As yummy as the sound of the name!
-                                                            </p>
-                                                            <a href="#path-to-the-recipe" class="btn btn-primary">Try
-                                                                and
-                                                                see</a>
+                                                    <div class="col-md-3">
+                                                        <div class="row d-flex justify-content-between">
+                                                            <div class="card mb-4">
+                                                                <img src="./assets/images/Corn-and-pear.jpeg"
+                                                                    alt="Corn-and-pear"
+                                                                    class="card-img-top img-fluid rounded mix-auto d-block">
+                                                                <div class="card-body gallery-card">
+                                                                    <h5 class="card-title">Corn and Pear
+                                                                    </h5>
+                                                                    <p class="card-text">Corn and pear - a match made in
+                                                                        heaven.</p>
+                                                                    <a href="#path-to-the-recipe"
+                                                                        class="btn btn-primary">Try me
+                                                                        now</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row d-flex justify-content-between">
+                                                            <div class="card mb-4">
+                                                                <img src="./assets/images/White-soup.jpeg"
+                                                                    alt="White Soup"
+                                                                    class="card-img-top img-fluid rounded mix-auto d-block">
+                                                                <div class="card-body gallery-card">
+                                                                    <h5 class="card-title">White Soup
+                                                                    </h5>
+                                                                    <p class="card-text">Every tongue I touch, I leave
+                                                                        good thoughts behind, will you be next?</p>
+                                                                    <a href="#path-to-the-recipe"
+                                                                        class="btn btn-primary">Try me
+                                                                        now</a>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                    <div class="col-md-3">
+                                                        <div class="row d-flex justify-content-between">
+                                                            <div class="card mb-4">
+                                                                <img src="./assets/images/Kelewele -fried plantain.jpeg"
+                                                                    alt="Fried Plaintan"
+                                                                    class="card-img-top img-fluid rounded mix-auto d-block">
+                                                                <div class="card-body gallery-card">
+                                                                    <h5 class="card-title">Fried Plaintan
+                                                                    </h5>
+                                                                    <p class="card-text">Taste me and you will never let
+                                                                        go!</p>
+                                                                    <a href="#path-to-the-recipe"
+                                                                        class="btn btn-primary">Try me
+                                                                        now</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row d-flex justify-content-between">
+                                                            <div class="card mb-4">
+                                                                <img src="./assets/images/Puffpuff.jpg"
+                                                                    alt="Corn-and-pear"
+                                                                    class="card-img-top img-fluid rounded mix-auto d-block">
+                                                                <div class="card-body gallery-card">
+                                                                    <h5 class="card-title">Puff Puff
+                                                                    </h5>
+                                                                    <p class="card-text">No dull moments with me, doubt
+                                                                        me at your own lose</p>
+                                                                    <a href="#path-to-the-recipe"
+                                                                        class="btn btn-primary">Try me
+                                                                        now</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="row d-flex justify-content-between">
+                                                            <div class="card mb-4">
+                                                                <img src="./assets/images/moi-moi.jpeg" alt="moi-moi"
+                                                                    class="card-img-top img-fluid rounded mix-auto d-block">
+                                                                <div class="card-body gallery-card">
+                                                                    <h5 class="card-title">Moi-Moi
+                                                                    </h5>
+                                                                    <p class="card-text">As yummy as the sound of the
+                                                                        name!
+                                                                    </p>
+                                                                    <a href="#path-to-the-recipe"
+                                                                        class="btn btn-primary">Try
+                                                                        and
+                                                                        see</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row d-flex justify-content-between">
+                                                            <div class="card mb-4">
+                                                                <img src="./assets/images/moi-moi.jpeg" alt="moi-moi"
+                                                                    class="card-img-top img-fluid rounded mix-auto d-block">
+                                                                <div class="card-body gallery-card">
+                                                                    <h5 class="card-title">Moi-Moi
+                                                                    </h5>
+                                                                    <p class="card-text">As yummy as the sound of the
+                                                                        name!
+                                                                    </p>
+                                                                    <a href="#path-to-the-recipe"
+                                                                        class="btn btn-primary">Try
+                                                                        and
+                                                                        see</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
+
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
-                                            <div class="card">
-                                                <img src="./assets/images/peppered-meat.jpeg" alt="peppered-meat"
+
+                                    </div>
+
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="row">
+                                            <div class="card mb-1">
+                                                <img src="./assets/images/white-yam-stew.jpeg" alt="white-yam-stew"
                                                     class="card-img-top img-fluid rounded mix-auto d-block">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Peppered Meat
+                                                <div class="card-body gallery-card">
+                                                    <h5 class="card-title">white Yam and Stew
                                                     </h5>
-                                                    <p class="card-text">Best companion in moments of
-                                                        relaxation!</p>
+                                                    <p class="card-text">Taste me and you will never
+                                                        forget me.</p>
                                                     <a href="#path-to-the-recipe" class="btn btn-primary">Try
                                                         and
                                                         see</a>
                                                 </div>
-
                                             </div>
+
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-3">
-                                                <div class="row">
-                                                    <div class="card">
-                                                        <img src="./assets/images/white-yam-stew.jpeg"
-                                                            alt="white-yam-stew"
-                                                            class="card-img-top img-fluid rounded mix-auto d-block">
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">white Yam and Stew
-                                                            </h5>
-                                                            <p class="card-text">Taste me and you will never
-                                                                forget me.</p>
-                                                            <a href="#path-to-the-recipe" class="btn btn-primary">Try
-                                                                and
-                                                                see</a>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                                <div class="row">
-                                                    <div class="card">
-                                                        <img src="./assets/images/images.jpeg" alt="Orishi Orishi"
-                                                            class="card-img-top img-fluid rounded mix-auto d-block">
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Orishi Orishi
-                                                            </h5>
-                                                            <p class="card-text">Orishi Orishi Pro Max!</p>
-                                                            <a href="#path-to-the-recipe" class="btn btn-primary">Get
-                                                                the
-                                                                recipe</a>
-                                                        </div>
-                                                    </div>
-
+                                            <div class="card mb-1">
+                                                <img src="./assets/images/images.jpeg" alt="Orishi Orishi"
+                                                    class="card-img-top img-fluid rounded mix-auto d-block">
+                                                <div class="card-body gallery-card">
+                                                    <h5 class="card-title">Orishi Orishi
+                                                    </h5>
+                                                    <p class="card-text">Orishi Orishi Pro Max!</p>
+                                                    <a href="#path-to-the-recipe" class="btn btn-primary">Get
+                                                        the
+                                                        recipe</a>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
-                                                <div class="card">
-                                                    <img src="./assets/images/west-African-food.jpg"
-                                                        alt="west-African-food"
-                                                        class="card-img-top img-fluid rounded mix-auto d-block">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">West African Dish
-                                                        </h5>
-                                                        <p class="card-text">You will love this delicacy</p>
-                                                        <a href="#path-to-the-recipe" class="btn btn-primary">Get
-                                                            the
-                                                            recipe</a>
-                                                    </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row d-flex justify-content-between">
+                                            <div class="card mb-1">
+                                                <img src="./assets/images/west-African-food.jpg" alt="west-African-food"
+                                                    class="card-img-top img-fluid rounded mix-auto d-block">
+                                                <div class="card-body gallery-card">
+                                                    <h5 class="card-title">West African Dish
+                                                    </h5>
+                                                    <p class="card-text">You will love this delicacy</p>
+                                                    <a href="#path-to-the-recipe" class="btn btn-primary">Get
+                                                        the
+                                                        recipe</a>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
-                                                <div class="row">
-                                                    <div class="card">
-                                                        <img src="./assets/images/Roasted-plaintain-with-groundnut.jpeg"
-                                                            alt="Roasted-plaintain-with-groundnut"
-                                                            class="card-img-top img-fluid rounded mix-auto d-block">
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Roasted plaintain with groundnut
-                                                            </h5>
-                                                            <p class="card-text">If you want a taste that will
-                                                                resonate
-                                                                in your
-                                                                dreams, search no further.</p>
-                                                            <a href="#path-to-the-recipe" class="btn btn-primary">Get
-                                                                the
-                                                                recipe</a>
-                                                        </div>
-                                                    </div>
-
-
-                                                </div>
-                                                <div class="row">
-                                                    <div class="card">
-                                                        <img src="./assets/images/peppered-meat.jpeg"
-                                                            alt="Peppered Meat"
-                                                            class="card-img-top img-fluid rounded mix-auto d-block">
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Peppered Meat
-                                                            </h5>
-                                                            <p class="card-text">Perfect meal with a chilled drink
-                                                                to wash it down.</p>
-                                                            <a href="#path-to-the-recipe" class="btn btn-primary">Try
-                                                                me</a>
-                                                        </div>
-                                                    </div>
-
+                                        </div>
+                                        <div class="row d-flex justify-content-between">
+                                            <div class="card mb-4">
+                                                <img src="./assets/images/fried-rice.jpeg" alt="Fried Rice"
+                                                    class="card-img-top img-fluid rounded mix-auto d-block">
+                                                <div class="card-body gallery-card">
+                                                    <h5 class="card-title">Fried Rice
+                                                    </h5>
+                                                    <p class="card-text">I don't need any introduction, just get in
+                                                        here!</p>
+                                                    <a href="#path-to-the-recipe" class="btn btn-primary">Get
+                                                        the
+                                                        recipe</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="btn btn-outline-primary">Savor now</div>
+                                    <div class="col-md-3">
+                                        <div class="row">
+                                            <div class="card mb-4">
+                                                <img src="./assets/images/Roasted-plaintain-with-groundnut.jpeg"
+                                                    alt="Roasted-plaintain-with-groundnut"
+                                                    class="card-img-top img-fluid rounded mix-auto d-block">
+                                                <div class="card-body gallery-card">
+                                                    <h5 class="card-title">Roasted plaintain with groundnut
+                                                    </h5>
+                                                    <p class="card-text">If you want a taste that will
+                                                        resonate
+                                                        in your
+                                                        dreams, search no further.</p>
+                                                    <a href="#path-to-the-recipe" class="btn btn-primary">Get
+                                                        the
+                                                        recipe</a>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card mb-4">
+                                                    <img src="./assets/images/peppered-meat.jpeg" alt="Peppered Meat"
+                                                        class="card-img-top img-fluid rounded mix-auto d-block">
+                                                    <div class="card-body gallery-card">
+                                                        <h5 class="card-title">Peppered Meat
+                                                        </h5>
+                                                        <p class="card-text">Perfect meal with a chilled drink
+                                                            to wash it down.</p>
+                                                        <a href="#path-to-the-recipe" class="btn btn-primary">Try
+                                                            me</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
+                    </div>
+                </div>
+            </section>
         </section>
     </main>
 
