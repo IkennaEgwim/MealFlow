@@ -4,20 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Meal Flow</title>
+    <meta name="author" content="Henry, Ernest, Ikenna and Igwe">
+    <meta name="description" content="This is a website for MealFlow Services.">
+    <meta name="keywords" content="Meal, Recipe, Food, Ingredients">
+    <title>MealFlow: recipes made simple, flavour made extraordinary</title>
+
+    <!-- Bootstrap CSS and Font Awesome links-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+
+    <!-- Google fonts links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS links-->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
+
 <body>
+
+    <head>
+        <nav class="navbar navbar-expand-lg body-bg-secondary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-controls="menu-items"
+                    aria-expanded="false" data-bs-target="#menu-items" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="narvbar-brand">MealFlow</a>
+                <a class="narvbar-brand">
+                    <img src="./assets/icons/logo.svg" alt="Brand logo" width="30" height="24">
+                </a>
+                <a class="narvbar-brand" href="#signup" alt="Sign up">
+                    <img src="./assets/icons/signup.svg" alt="Sign up" width="30" height="24">
+                </a>
+
+                <div class="collapse navbar-collaspe" id="menu-items">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#recipes">Recipes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#plan-pricing">Plan and Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                    </ul>
+
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search for recipes"
+                            aria-label="Search">
+                        <button class="btn-outline-success" type="submit">
+                            <a class="narvbar-brand" href="#recipes"><img src="./assets/icons/search.png" alt="Search"
+                                    width="30" height="24"></a>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </head>
     <main>
 
-
         <section>
-            <h2>Jollof Rice</h2>
+            <div>
+                <h2 class="icons">Jollof Rice</h2>
+            </div>
             <img src="assets/css/images/jollof rice.png" alt="">
             <ol>
                 <li>Rice (1/4 ounces; 375g)</li>
-                
+
                 2 tablespoons (30ml) virgin coconut oil or vegetable oil
 
                 1 medium carrot (2 3/4 ounces; 75g), cut into 1/4-inch dice
@@ -36,57 +96,130 @@
 
                 1/4 cup (60g) drained canned whole kernel sweet corn
 
-                2 teaspoons curry powder 
+                2 teaspoons curry powder
 
                 1 teaspoon dried thyme
 
                 1/4 teaspoon freshly ground black pepper
 
-                2 dried bay leaves</ol>
+                2 dried bay leaves
+            </ol>
 
-            <h2>Fried Rice</h2>
-            <img src="assets/css/images/fried-rice.jpeg"alt="">
+            <div>
+                <h2>Fried Rice</h2>
+            </div>
 
-            <ol> Rice 
-                
+            <img src="assets/css/images/fried-rice.jpeg" alt="">
+
+            <ol> Rice
+
                 3 Medium Tomatoes, (cann or seed )
 
                 4 cloves Garlic
-                
+
                 4 Red peppers
-                
+
                 2 Scotch Bonnet/Habanero Peppers
-                
+
                 2 Medium Red Onion
-                
+
                 1 Teaspoon crushed Ginger
-                
+
                 3 1/2 cups Long grain White Rice
-                
+
                 4 Tablespoons Tomato Paste
-                
+
                 1 Chicken Stock Cube
-                
+
                 1/4 cup Vegetable Oil
-                
+
                 2 Tablespoons Thyme
-                
+
                 2 Teaspoons smoked Paprika
-                
+
                 1 Teaspoon Curry powder
-                
+
                 2 cups frozen vegetables (carrots, green beans, corn), optional.
-                
+
                 2 cups water</ol>
+            <div>
+
+                <h2>Egusi Soup and Fufu</h2>
+
+            </div>
+
+            <img src="assets/css/images/Egusi soup and fufu.jpeg" alt="Egusi Soup & Fufu">
+
+            <ol>2 cups of egusi (melon seeds)
+                1 kg of assorted meat (beef, goat, or chicken)
+                2 cups of chopped vegetables (spinach, bitter leaf, or pumpkin leaves)
+                1 onion, chopped
+                3-4 medium-sized tomatoes, blended
+                2 tablespoons of palm oil
+                1-2 tablespoons of ground crayfish
+                Stock cubes or seasoning powder, to taste
+                Salt, to taste
+                Water, as needed <br>
+                2 cups of cassava or plantain flour
+                Water, as needed
+                Salt, to taste </ol>
+
+
+            <div>
+                <h2>Yam Pottage</h2>
+            </div>
+
+            <img src="assets/css/images/Yam pottage.jpeg" alt="Yam Pottage">
+
+            <ol>Yam tuber
+
+                Red bell pepper
+
+                Scotch bonnet chillies
+
+                Onion
+
+                salt
+
+                Water as needed
+
+                Palm oil or vegetable oil</ol>
+
+            <div>
+                <h2>Kelewele - Fried plaintain</h2>
+            </div>
+
+            <img src="assets/css/images/Kelewele -fried plantain.jpeg" alt="kelewele fried-plaintain">
+
+            <ol>ripe plantain
+
+                vegetable oil
+
+                salt</ol>
+
+                <div>
+                    <h2>Puff puff</h2>
+                </div>
+                <img src="assets/css/images/Puffpuff.jpg" alt="Puffpuff">
+                <ol>Flour 
+                    Yeast 
+                    Water 
+                    Sugar 
+                    Cooking Oil </ol>
 
         </section>
+
 
     </main>
 
     <footer>
 
     </footer>
-
+    <!-- Bootstrap Javascript links-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 </body>
+
 
 </html>
