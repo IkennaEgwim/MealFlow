@@ -3,9 +3,30 @@
     padding: 0;
 }
 
-.background {
+/* General styling */
+html, body{
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* Header section */
+.header-section{
     background-color: cadetblue;
- }
+}
+
+/* Main */
+.main-container{
+    background-color: #E0FFFF;
+}
+
+h1, h2, h3, p{
+color:darkgoldenrod
+}
+
  
  .african-dish-image {
      width: 100%;
@@ -17,34 +38,44 @@
      background-color: brow
  }
  
- .welcome {
+ .welcome h5 {
      font-style: italic;
      font-size: medium;
-     color: antiquewhite;
+     /*color: antiquewhite;*/
      width: 100%;
      height: 100%;
  }
  
- .website-name {
+ .website-name h1 {
      font-style: italic;
      font-weight: 600;
-     font-size: x-large;
-     color: cyan;
+     font-size: 5em;
+/*     color: cyan;*/
      width: 100%;
      height: 100%;
  }
  
- .website-slogan {
+ .website-slogan h5 {
      font-style: italic;
-     font-size: medium;
-     color: bisque;
+     font-size: small;
+/*     color: bisque;*/
      width: 100%;
      height: 100%;
  }
  
+.welcome,  .website-name, .website-slogan{
+    position: relative;
+    text-align: center;
+    top: 40%;
+ }
  
  .row.justify-content-center {
      justify-content: center;
+   }
+
+   /* Gallery Section */
+   #gallery-section{
+    background-color:#E0FFFF;
    }
    
    /* Set a fixed width for the button */
@@ -52,9 +83,17 @@
      width: 100px; /* Adjust the value as needed */
    }
 
-   /*** Media Queries ***/
-
-   /**
+   /* Footer section */
+.footer-section{
+    background-color: cadetblue;
+}
+   /*** Media Queries 
+   Creamy White: #FFFFF0
+   Light Green: #C7E5C9***
+   Soft Gray: #ECECEC
+   Warm Beige: #F5F5DC
+   Light Blue: #E0FFFF
+   ***//**
    Extra small and small screen
    
    @media (max-width: 767px){

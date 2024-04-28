@@ -31,13 +31,13 @@
 <body>
 
     <head>
-        <nav class="navbar navbar-expand-lg body-bg-secondary">
+        <nav class="navbar navbar-expand-lg body-bg-secondary header-section">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-controls="menu-items"
                     aria-expanded="false" data-bs-target="#menu-items" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="narvbar-brand">MealFlow</a>
+                <a class="narvbar-brand" id="#brand-name">MealFlow</a>
                 <a class="narvbar-brand">
                     <img src="./assets/icons/logo.svg" alt="Brand logo" width="30" height="24">
                 </a>
@@ -48,7 +48,7 @@
                 <div class="collapse navbar-collaspe" id="menu-items">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#recipes">Recipes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/recipe.html">Recipes</a></li>
                         <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
                         <li class="nav-item"><a class="nav-link" href="#plan-pricing">Plan and Pricing</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
@@ -67,14 +67,19 @@
             </div>
         </nav>
     </head>
-    <main>
+    <main class="main-container">
+        <!-- Hero Section -->
         <div class="container-fluid background">
             <div class="row border">
-                <div class="col-md-4 border">
-                    <div class="row">
-                        <div class="col-md-12 welcome">Welcome to:</div>
-                        <div class="col-md-12 website-name">MealFlow</div>
-                        <div class="col-md-12 website-slogan">....recipes made simple, flavour made extraordinary</div>
+                <div class="col-md-4 hero-details">
+                    <div class="row welcome">
+                        <h5>Welcome to:</h5>
+                    </div>
+                    <div class="row website-name">
+                        <h1>MealFlow</h1>
+                    </div>
+                    <div class="row website-slogan">
+                        <h5>....recipes made simple, flavour made extraordinary</h5>
                     </div>
                 </div>
                 <div class="col-md-8 border">
@@ -82,14 +87,13 @@
                 </div>
             </div>
         </div>
-
         <div class="row justify-content-center">
             <div class="col-auto">
                 <button class="btn btn-dark btn-sm px-2">Savor now</button>
             </div>
         </div>
+
         <!-- Gallery Section -->
-        <!-- Extra small and small screen -->
         <section id="gallery-section">
             <div class="container-fluid">
                 <div class="row">
@@ -161,7 +165,7 @@
 
                                             </div>
                                         </div>
-                                        <div class="col-md-3" style="background-color: rgb(216, 232, 149);">
+                                        <div class="col-md-3">
                                             <div class="card">
                                                 <img src="./assets/images/peppered-meat.jpeg" alt="peppered-meat"
                                                     class="card-img-top img-fluid rounded mix-auto d-block">
@@ -212,7 +216,7 @@
 
                                                 </div>
                                             </div>
-                                            <div class="col-md-6" style="background-color: rgb(39, 37, 37);">
+                                            <div class="col-md-6">
                                                 <div class="card">
                                                     <img src="./assets/images/west-African-food.jpg"
                                                         alt="west-African-food"
@@ -278,7 +282,7 @@
         </section>
     </main>
 
-    <footer class="text-center text-lg-start" style="background-color: #db6930;">
+    <footer class="text-center text-lg-start footer-section">
         <div class="container d-flex justify-content-center py-5">
             <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #45496b;">
                 <i class="fab fa-facebook-f">facebook</i>
