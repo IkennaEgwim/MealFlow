@@ -1,23 +1,15 @@
-![CI logo]()
-
 <a name="readme-top"></a>
 
 <!--
-*** Thank you for checking out and/or using this README Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "improvement".
-*** Adapt appropriately and replace all placeholder text with accurate information relating to your project.
 *** Don't forget to give the project a star!
 -->
 
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
   <a href="https://github.com/IkennaEgwim/MealFlow/README.md">
-    <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" alt="Project Logo" width="80" height="60">
+    <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" alt="Project Logo" width="80" height="60"><img src="./assets/icons/logo.svg" alt="Project Logo" width="80" height="60">
     </div>
   </a>
-
   <h1 align="center">MealFlow</h1>
 
   <p align="center">
@@ -104,40 +96,38 @@ This section contains summary information about the project, the user expections
 
 <h2 id="about-the-project">About The Project</h2>
 
-<p align="center"><a href="https://path-to-deployed-site.com">MealFlow Website</a></p>
+<p align="center"><a href="https://path-to-deployed-site.com">MealFlow Kitchen</a></p>
 
-<a href="https://github.com/scientistigwe/README-Template">
-<img src="./assets/images/screenshot.png" alt="Product Screenshot" width="600" height="600">
+<a href="https://github.com/IkennaEgwim/README.md">
+<img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg" alt="Product Screenshot" width="600" height="600">
 </a>
 
 <h2 id="ux">User Experience (UX)</h2>
 
-**MealFlow** is a software designed to provide abc services.
+MealFlow Solution is an online institution carefully designed and crafted to provide range of services as relates to Africa delicacies.
 
 The uniqueness of this project are:
 
-- abc
-- xyz
-- 123
-- etc
+- Easy of navigation to different pages of the websites.
+- Virtual Kitchen capability - pick a recipe and a plan, a seasoned team member will then join you virtually in your cooking space from the start to finish.
+- Recommendation system which is Ai-powered - you think it, ask MealFlow and we cook it.
 
 You can view the deployed website [here](https://path-to-deployed-site.com)
 
 <h2 id="user-stories">User Stories</h2>
 
-- As a new user of this website, I want to easily.......
-- As a new user of this website, I want to quickly.......
-- As a new user of this website, I want to quickly.......
-- As a new user of this website, I want to see.......
-- As a new user of this website, I want to see.......
-- As a new user of this website, I want to easily find.......
+- As a user, I want I want the hero section to have a clear and prominent call-to-action button or link, so that I can easily take the next step or perform the desired action.
+- As a user, I want the hero section to prominently display the website's name or logo, so that I can easily identify the brand or product being presented.
+- As a user, I want **clear labels and visually distinguishable links in the navigation bar **, so that I can easily navigate through the website.
+- As a user, I want active links to be visually highlighted, so that I can easily identify my current location within the website.
+- As a user, I want to see a fixed navigation bar at the top of the page, so that I can easily access my preferred recipe.
+- As a user, I want he footer section to include links to the company's social media profiles, so that ** I can follow and engage with them on various social platforms.**.
 - As a new user to this website, I want to meet the team
-- As a user, I want to follow xyz on social media.......
-- etc
+- As a food enthusiast, I want to discover new and exciting recipes, so that I can experiment with different cuisines and flavors.
 
 <h2 id="technology-stack">Technology Stack</h2>
 
-This subsection outlines the technologies, frameworks, libraries, and tools used in the development of this project. It provides insight into the foundational components that power "**name-of-project**". Add-ons ad plugins are captured in the acknowledgements subsection (N/B: below are dummy samples. Replace with the actual project frameworks and libraries).
+This subsection outlines the technologies, frameworks, libraries, and tools used in the development of this project. It provides insight into the foundational components that power MealFlow. Add-ons and plugins are captured in the acknowledgements subsection.
 
 <h2 id="languages-frameworks-libraries">Languages, Frameworks and Libraries</h2>
 
@@ -149,8 +139,6 @@ This subsection outlines the technologies, frameworks, libraries, and tools used
 
 - <img src="./assets/icons/font_awesome.png" width="20px" align="top"><a href="https://fontawesome.com/"> Font Awesome</a> - Used for the site icons.
 
-- <img src="./assets/icons/javascript.png" width="20px" align="top"><a href="https://en.wikipedia.org/wiki/JavaScript"> JavaScript</a> - Used for the hamburger navigation and icons.
-
 - <img src="./assets/icons/github.png" width="20px" align="top"><a href="https://github.com/IrisSmok"> Github</a> - Used to store the project code.
 
 - <img src="./assets/icons/gitpod.png" width="20px" align="top"><a href="https://www.gitpod.io/"> Gitpod</a> - An IDE Used for coding.
@@ -159,29 +147,11 @@ This subsection outlines the technologies, frameworks, libraries, and tools used
 
 - <img src="./assets/icons/shutterstock.png" width="20px" align="top"><a href="https://www.shutterstock.com/home"> Shutterstock</a> and <img src="./assets/icons/unsplash.png" width="20px" align="top"><a href="https://unsplash.com/"> Unsplash photo</a> - Used for all images on the website.
 
-- <img src="./assets/icons/google_map.png" width="20px" align="top"><a href="https://google-map-generator.com/"> Google Map Generator</a> - Used to import business location.
-
 - <img src="./assets/icons/responsive-devices.png" width="20px" align="top"><a href="http://ami.responsivedesign.is/"> Am I Responsive</a> - Used to check if the site is responsive on different screen sizes.
-
-- <img src="./assets/icons/IMG2GO.png" width="20px" align="top"><a href="https://www.img2go.com/compress-image#j=f26cc008-23b4-4d4e-9934-96877fa9a7e7"> IMG2GO</a> and <img src="./assets/icons/Tiny_PNG.png" width="20px" align="top"><a href="https://tinypng.com/"> Tiny PNG</a> - Used to help compress the images.
 
 - <img src="./assets/icons/html_formatter.png" width="20px" align="top"><a href="https://www.freeformatter.com/html-formatter.html"> Free Online HTML Formatter</a> - Used to correct indentation issues and get rid of excess whitespace.
 
-- <img src="./assets/icons/next_js.png" width="20px" align="top"><a href="[Next-url]"> Next.js</a> - Used for server-side rendering and building modern, scalable web applications.
-
-- <img src="./assets/icons/react..png" width="20px" align="top"><a href="[React-url]"> React.js</a> - Used for building user interfaces, especially single-page applications.
-
-- <img src="./assets/icons/Vue_js.png" width="20px" align="top"><a href="[Vue-url]"> Vue.js</a> - Used for building interactive web interfaces and single-page applications.
-
-- <img src="./assets/icons/angular.png" width="20px" align="top"><a href="[Angular-url]"> Angular</a> - Used for building large-scale, high-performance web applications.
-
-- <img src="./assets/icons/svelte.png" width="20px" align="top"><a href="[Svelte-url]"> Svelte</a> - Used for building fast, lightweight web applications with minimal overhead.
-
-- <img src="./assets/icons/laravel.png" width="20px" align="top"><a href="[Laravel-url]"> Laravel</a> - Used for building web applications with elegant syntax and a robust ecosystem.
-
 - <img src="./assets/icons/bootstrap.png" width="20px" align="top"><a href="[Bootstrap-url]"> Bootstrap</a> - Used for building responsive and mobile-first websites and web applications.
-
-- <img src="./assets/icons/jquery.png" width="20px" align="top"><a href="[JQuery-url]"> jQuery</a> - Used for simplifying HTML document traversing, event handling, and animation.
 
 <h2 id="management-and-development">Project Management and Development Approach</h2>
 
@@ -189,19 +159,31 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 
 <strong>Four Values of the Agile Manifesto:</strong>
 
-- Vision 1: Customer collaboration over contract negotiation: **[Sample description]** The Team held [**number of meetings**] planning sessions via **Zoom, Google Meet, or Microsoft Teams**, ensuring alignment with customer needs and prioritizing features through user story mapping.
-- **a screenshot or graphic representation of a Zoom meeting with team members.**
+- Vision 1: Customer collaboration over contract negotiation: The Team held 6 planning sessions via Google Meets platform, ensuring alignment with customer needs and prioritizing features through user story mapping.
+  <a href="https://github.com/IkennaEgwim/README.md">
+  <img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg" alt="Product Screenshot" width="400" height="300">
+  </a>
+  **A screenshot or graphic representation of a Zoom meeting with team members.**
 
-- Vision 2: Responding to change over following a plan: **[Sample description]**: Throughout the project, the team managed (
+- Vision 2: Responding to change over following a plan: Throughout the project, the team managed (
   [![GitHub issues](https://img.shields.io/github/issues-closed/IkennaEgwim/MealFlow?)](https://github.com/IkennaEgwim/MealFlow/issues) + [![GitHub issues](https://img.shields.io/github/issues/IkennaEgwim/MealFlow?)](https://github.com/IkennaEgwim/MealFlow/issues) ) GitHub issues, adapting to changing requirements and feedback iteratively.
   **A screenshot of the GitHub project board demonstrates their flexibility.**
+  <a href="https://github.com/IkennaEgwim/README.md">
+  <img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg" alt="Product Screenshot" width="400" height="300">
+  </a>
 
-- Vision 3: Working software over comprehensive documentation: **[Sample description]** Achieved **[number of story points]** across **[number of sprints]**, emphasizing the focus on delivering functional software increments.
-- **A snapshot of the scrum/kanban board tracks their progress.**
+- Vision 3: Working software over comprehensive documentation: Achieved **[number of story points]** across 3 sprints, emphasizing the focus on delivering functional software increments.
+  **A snapshot of the scrum/kanban board tracks their progress.**
+  <a href="https://github.com/IkennaEgwim/README.md">
+  <img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg" alt="Product Screenshot" width="400" height="300">
+  </a>
 
 - Vision 4: Individuals and interactions over processes and tools
   Description: Daily interactions on GitHub led to **[number of commits]**, fostering collaboration and knowledge sharing among team members.
 - **A snapshot of GitHub issue discussions illustrates their collaborative environment.**
+  <a href="https://github.com/IkennaEgwim/README.md">
+  <img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg" alt="Product Screenshot" width="400" height="200">
+  </a>
 
 <strong>Twelve Principles of the Agile Manifesto</strong>
 
