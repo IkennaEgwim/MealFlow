@@ -159,7 +159,7 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 
 <strong>Four Values of the Agile Manifesto:</strong>
 
-- Vision 1: Customer collaboration over contract negotiation: The Team held 6 planning sessions via Google Meets platform, ensuring alignment with customer needs and prioritizing features through user story mapping.
+- Vision 1: Customer collaboration over contract negotiation: The Team held 6 sessions via Google Meets platform, ensuring alignment with customer needs and prioritizing features through user story mapping.
   <a href="https://github.com/IkennaEgwim/README.md">
   <img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg" alt="Product Screenshot" width="400" height="300">
   </a>
@@ -172,7 +172,7 @@ This project was implemented using the Agile Manifesto methodology. Below are th
   <img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg" alt="Product Screenshot" width="400" height="300">
   </a>
 
-- Vision 3: Working software over comprehensive documentation: Achieved **[number of story points]** across 3 sprints, emphasizing the focus on delivering functional software increments.
+- Vision 3: Working software over comprehensive documentation: Achieved 24 story points across 1 sprint, emphasizing the focus on delivering functional software increments.
   **A snapshot of the scrum/kanban board tracks their progress.**
   <a href="https://github.com/IkennaEgwim/README.md">
   <img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg" alt="Product Screenshot" width="400" height="300">
