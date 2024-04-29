@@ -96,10 +96,10 @@ This section contains summary information about the project, the user expections
 
 <h2 id="about-the-project">About The Project</h2>
 
-<p align="center"><a href="https://path-to-deployed-site.com">MealFlow Kitchen</a></p>
+<p align="center"><a href="https://scientistigwe.github.io/MealFlow/">MealFlow Kitchen</a></p>
 
-<a href="https://github.com/IkennaEgwim/README.md">
-<img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg" alt="Product Screenshot" width="600" height="600">
+<a  href="https://scientistigwe.github.io/MealFlow/">
+<img src="./assets/images/project-image.png"  alt="Product Screenshot" width="600" height="400" align="top">
 </a>
 
 <h2 id="ux">User Experience (UX)</h2>
