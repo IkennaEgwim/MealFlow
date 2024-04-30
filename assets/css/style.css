@@ -53,10 +53,6 @@ margin-left: -5px;
     border: none;
 }
 
- 
-
-
-
 /* Main */
 .main-container{
     background-color: #E0FFFF;
@@ -102,7 +98,7 @@ button{
     font-style: italic;
     font-weight: 600;
     font-size: 2em;
-/*     color: cyan;*/
+     color: rgb(95, 158, 160);
     width: 100%;
     text-align: center;
 }
@@ -142,14 +138,11 @@ button{
 .footer-section{
     background-color: cadetblue;
 }
-   /*** Media Queries 
-   Creamy White: #FFFFF0
-   Light Green: #C7E5C9***
-   Soft Gray: #ECECEC
-   Warm Beige: #F5F5DC
-   Light Blue: #E0FFFF
-   ***/
 
+/* Recipe Styling */
+#jollof-rice{
+    text-align: center;
+}
    
     @media (min-width: 768px) {
     .hero-details{

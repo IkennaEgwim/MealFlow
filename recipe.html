@@ -27,205 +27,322 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
+<head>
+    <nav class="navbar navbar-expand-lg header-section">
+        <div class="container-fluid header-container">
+            <button class="navbar-toggler me-auto nav-icon" type="button" data-bs-toggle="collapse"
+                aria-controls="menu-items" aria-expanded="false" data-bs-target="#menu-items"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html" id="brand-name">MealFlow<img src="./assets/icons/logo.svg"
+                    alt="Brand logo" width="30" height="24">
+            </a>
+            <div class="collapse navbar-collapse" id="menu-items">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link menu-item " href="/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link menu-item active" href="/recipe.html">Recipes</a></li>
+                    <li class="nav-item"><a class="nav-link menu-item" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link menu-item" href="#plan-pricing">Plan and Pricing</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link menu-item" href="#contact">Contact Us</a></li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search for recipes" aria-label="Search">
+                    <button type="submit" class="search-icon-btn">
+                        <img src="./assets/icons/search.png" alt="Search" width="30" height="24">
+                    </button>
+                </form>
+            </div>
+            <button type="submit"><a href="#signup" alt="Sign up"
+                    class="btn btn-link btn-outline-success me-auto signup">
+                    <img src="./assets/icons/signup.svg" alt="Sign up" width="30" height="24">
+                </a></button>
+        </div>
+    </nav>
+</head>
+<main>
+    <section class="main-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <!-- Jollof-Rice-->
+                    <div class="row d-flex justify-content-between" id="jollof-rice">
+                        <h2>Jollof Rice Recipe</h2>
+                    </div>
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="./assets/images/jollof_rice_recipe-1.webp"
+                                    class="card-img-top img-fluid w-100 h-100" alt="Jollof Rice" width="230"
+                                    height="220">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ingredients:</h5>
+                                    <ol class="card-text" style="list-style-type: circle;">
+                                        <li>Rice</li>
+                                        <li>Coconut oil or Vegetable oil</li>
+                                        <li>Carrot</li>
+                                        <li>Onion</li>
+                                        <li>Green beans</li>
+                                        <li>Salt</li>
+                                        <li>Bell pepper</li>
+                                        <li>Sweet corn</li>
+                                        <li>Curry powder</li>
+                                        <li>Thyme</li>
+                                        <li>Fresh black pepper</li>
+                                        <li>Dried bay leaves</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 card d-flex justify-content-between">
+                            <div class="card mb-8">
+                                <div class="card-body">
+                                    <h5 class="class-title">Instructions:</h5>
+                                    <ol class="card-text">
+                                        <strong>Prepare the Ingredients:</strong>
+                                        <li>Rinse rice thoroughly and drain.</li>
+                                        <li>Chop onion, bell pepper, carrot, and green beans.</li>
+                                        <li>Drain sweet corn and set aside.</li>
+                                        <li>Crush dried bay leaves for flavor.</li>
+                                        <strong>Sauté Vegetables:</strong>
+                                        <li>Heat oil in a pot, sauté onions until translucent.</li>
+                                        <li>Add bell pepper, carrot, and green beans, cook until soft.</li>
+                                        <strong>Seasoning:</strong>
+                                        <li>Add curry powder, thyme, black pepper, and bay leaves.</li>
+                                        <li>Season with salt, stir to combine.</li>
+                                        <strong>Add Rice and Liquid:</strong>
+                                        <li>Stir rice into the pot until coated.</li>
+                                        <li>Add enough liquid to cover rice (1.5 to 2 cups per cup of rice).</li>
+                                        <strong>Cooking:</strong>
+                                        <li>Bring to a boil, then simmer covered for 20-25 minutes until
+                                            rice is tender.</li>
+                                        <li>Check and add more liquid if needed.</li>
+                                        <strong>Final Touches:</strong>
+                                        <li>Fluff rice with a fork, mix in sweet corn.</li>
+                                        <li>Adjust seasoning if necessary.</li>
+                                        <strong>Serving:</strong>
+                                        <li>Serve hot as a main or side dish with protein.</li>
+                                        <li>Garnish with fresh herbs if desired.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-    <head>
-        <nav class="navbar navbar-expand-lg header-section">
-            <div class="container-fluid header-container">
-                <button class="navbar-toggler me-auto nav-icon" type="button" data-bs-toggle="collapse"
-                    aria-controls="menu-items" aria-expanded="false" data-bs-target="#menu-items"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="./index.html" id="brand-name">MealFlow<img src="./assets/icons/logo.svg"
-                        alt="Brand logo" width="30" height="24">
-                </a>
-                <div class="collapse navbar-collapse" id="menu-items">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link menu-item " href="/index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link menu-item active" href="/recipe.html">Recipes</a></li>
-                        <li class="nav-item"><a class="nav-link menu-item" href="#gallery">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link menu-item" href="#plan-pricing">Plan and Pricing</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link menu-item" href="#contact">Contact Us</a></li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search for recipes"
-                            aria-label="Search">
-                        <button type="submit" class="search-icon-btn">
-                            <img src="./assets/icons/search.png" alt="Search" width="30" height="24">
-                        </button>
-                    </form>
+                    <!-- Egwusi Soup -->
+                    <div class="row d-flex justify-content-between" id="jollof-rice">
+                        <h2>Egusi Soup and Poundo Recipe</h2>
+                    </div>
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg"
+                                    class="card-img-top img-fluid w-100 h-100" alt="Egwusi Soup" width="230"
+                                    height="220">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ingredients:</h5>
+                                    <ol class="card-text" style="list-style-type: circle;">
+                                        <li>Egusi (melon seeds)</li>
+                                        <li>Vgetables (spinach, bitter leaf, or pumpkin leaves)</li>
+                                        <li>Onion</li>
+                                        <li>Tomatoes</li>
+                                        <li>Palm oil</li>
+                                        <li>Crayfish</li>
+                                        <li>Stock cubes or seasoning powder</li>
+                                        <li>Salt</li>
+                                        <li>Water, as needed</li>
+                                        <li>Cassava or plantain flour</li>
+                                        <li>Salt, to taste </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 card d-flex justify-content-between">
+                            <div class="card mb-8">
+                                <div class="card-body">
+                                    <h5 class="class-title">Instructions:</h5>
+                                    <ol class="card-text">
+                                        <strong>Instructions:</strong>
+                                        <li><strong>Prepare the Ingredients:</strong></li>
+                                        <li>Rinse the egusi seeds thoroughly and drain.</li>
+                                        <li>Chop the vegetables (spinach, bitter leaf, or pumpkin leaves).</li>
+                                        <li>Chop the onion and tomatoes.</li>
+                                        <li>Grind or blend the crayfish into a fine powder.</li>
+                                        <li><strong>Cook the Egusi Soup:</strong></li>
+                                        <li>Heat palm oil in a pot over medium heat.</li>
+                                        <li>Sauté chopped onions until translucent.</li>
+                                        <li>Add ground egusi powder and cook until it bubbles and releases aroma.
+                                        </li>
+                                        <li>Add chopped tomatoes and cook until softened.</li>
+                                        <li>Pour in water gradually, stirring continuously until desired
+                                            consistency.</li>
+                                        <li>Season with stock cubes or seasoning powder, salt, and crayfish powder.
+                                            Adjust seasoning to taste.</li>
+                                        <li>Add chopped vegetables and simmer until cooked but still vibrant.</li>
+                                        <li><strong>Prepare the Poundo:</strong></li>
+                                        <li>Bring water to a boil in a separate pot.</li>
+                                        <li>Gradually add cassava or plantain flour, stirring continuously to
+                                            prevent lumps.</li>
+                                        <li>Stir until mixture thickens and forms a smooth, stretchy dough-like
+                                            consistency.</li>
+                                        <li>Season with salt to taste.</li>
+                                        <li><strong>Serve:</strong></li>
+                                        <li>Serve the hot egusi soup alongside the poundo in separate bowls.</li>
+                                        <li>Enjoy your delicious and nutritious meal!</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <button type="submit"><a href="#signup" alt="Sign up"
-                        class="btn btn-link btn-outline-success me-auto signup">
-                        <img src="./assets/icons/signup.svg" alt="Sign up" width="30" height="24">
-                    </a></button>
             </div>
-        </nav>
-    </head>
-    <main>
+        </div>
+        <!--
+        <div>
+            <h2>Fried Rice</h2>
+        </div>
 
-        <section>
-            <div>
-                <h2 class="icons">Jollof Rice</h2>
-            </div>
-            <img src="assets/css/images/jollof rice.png" alt="">
-            <ol>
-                <li>Rice</li>
+        <img src="assets/css/images/fried-rice.jpeg" alt="">
 
-                <li>Coconut oil or Vegetable oil</li>
+        <ol>
+            <li>Rice</li>
 
-                <li>Carrot</li>
+            <li>Tomatoes (cann or seed )</li>
 
-                <li>Onion</li>
+            <li>Garlic</li>
 
-                <li>Green beans</li>
+            <li>Peppers</li>
 
-                <li>Salt</li>
+            <li>Scotch Bonnet/Habanero Peppers</li>
 
-                <li>Bell pepper</li>
+            <li>Onion</li>
 
-                <li>Sweet corn</li>
+            <li>Ginger</li>
 
-                <li>Curry powder</li>
+            <li>Tomato Paste</li>
 
-                <li>Thyme</li>
+            <li>Chicken Stock Cube</li>
 
-                <li>Fresh black pepper</li>
+            <li>Vegetable Oil</li>
 
-                <li>Dried bay leaves</li>
-            </ol>
+            <li>Thyme</li>
 
-            <div>
-                <h2>Fried Rice</h2>
-            </div>
+            <li>Smoked Paprika</li>
 
-            <img src="assets/css/images/fried-rice.jpeg" alt="">
+            <li>Curry powder</li>
 
-            <ol>
-                <li>Rice</li>
+            <li>Fresh or frozen vegetables (carrots, green beans, corn), optional.</li>
 
-                <li>Tomatoes (cann or seed )</li>
+            <li>Water</li>
+        </ol>
+        <div>
 
-                <li>Garlic</li>
+            <h2></h2>
 
-                <li>Peppers</li>
+        </div>
 
-                <li>Scotch Bonnet/Habanero Peppers</li>
+        <img src="assets/css/images/Egusi soup and fufu.jpeg" alt="Egusi Soup & Fufu">
 
-                <li>Onion</li>
+        <ol>
 
-                <li>Ginger</li>
-
-                <li>Tomato Paste</li>
-
-                <li>Chicken Stock Cube</li>
-
-                <li>Vegetable Oil</li>
-
-                <li>Thyme</li>
-
-                <li>Smoked Paprika</li>
-
-                <li>Curry powder</li>
-
-                <li>Fresh or frozen vegetables (carrots, green beans, corn), optional.</li>
-
-                <li>Water</li>
-            </ol>
-            <div>
-
-                <h2>Egusi Soup and Fufu</h2>
-
-            </div>
-
-            <img src="assets/css/images/Egusi soup and fufu.jpeg" alt="Egusi Soup & Fufu">
-
-            <ol>
-                <li>Egusi (melon seeds)</li>
-                <li>Vgetables (spinach, bitter leaf, or pumpkin leaves)</li>
-                <li>Onion</li>
-                <li>Tomatoes</li>
-                <li>Palm oil</li>
-                <li>Crayfish</li>
-                <li>Stock cubes or seasoning powder</li>
-                <li>Salt</li>
-                <li>Water, as needed</li>
-                <li>Cassava or plantain flour</li>
-                <li>Salt, to taste </li>
-            </ol>
+        </ol>
 
 
-            <div>
-                <h2>Yam Pottage</h2>
-            </div>
+        <div>
+            <h2>Yam Pottage</h2>
+        </div>
 
-            <img src="assets/css/images/Yam pottage.jpeg" alt="Yam Pottage">
+        <img src="assets/css/images/Yam pottage.jpeg" alt="Yam Pottage">
 
-            <ol>
-                <li>Yam tuber</li>
+        <ol>
+            <li>Yam tuber</li>
 
-                <li>Red bell pepper</li>
+            <li>Red bell pepper</li>
 
-                <li>Scotch bonnet chillies</li>
+            <li>Scotch bonnet chillies</li>
 
-                <li>Onion</li>
+            <li>Onion</li>
 
-                <li>salt</li>
+            <li>salt</li>
 
-                <li>Water as needed</li>
+            <li>Water as needed</li>
 
-                <li>Palm oil or vegetable oil</li>
-            </ol>
+            <li>Palm oil or vegetable oil</li>
+        </ol>
 
-            <div>
-                <h2>Kelewele - Fried plaintain</h2>
-            </div>
+        <div>
+            <h2>Kelewele - Fried plaintain</h2>
+        </div>
 
-            <img src="assets/css/images/Kelewele -fried plantain.jpeg" alt="kelewele fried-plaintain">
+        <img src="assets/css/images/Kelewele -fried plantain.jpeg" alt="kelewele fried-plaintain">
 
-            <ol>
-                <li>Ripe plantain</li>
+        <ol>
+            <li>Ripe plantain</li>
 
-                <li>Vegetable oil</li>
+            <li>Vegetable oil</li>
 
-                <li>Salt</li>
-            </ol>
+            <li>Salt</li>
+        </ol>
 
-            <div>
-                <h2>Puff puff</h2>
-            </div>
-            <img src="assets/css/images/Puffpuff.jpg" alt="Puffpuff">
-            <ol>Flour
-                Yeast
-                Water
-                Sugar
-                Cooking Oil </ol>
-            <div>
-                <h2>Puff puff</h2>
-            </div>
-            <img src="assets/css/images/Puffpuff.jpg" alt="Puffpuff">
-            <ol>
-                <li>Flour</li>
-                <li>Yeast</li>
-                <li>Water</li>
-                <li>Sugar</li>
-                <li>Cooking Oil</li>
-            </ol>
+        <div>
+            <h2>Puff puff</h2>
+        </div>
+        <img src="assets/css/images/Puffpuff.jpg" alt="Puffpuff">
+        <ol>Flour
+            Yeast
+            Water
+            Sugar
+            Cooking Oil </ol>
+        <div>
+            <h2>Puff puff</h2>
+        </div>
+        <img src="assets/css/images/Puffpuff.jpg" alt="Puffpuff">
+        <ol>
+            <li>Flour</li>
+            <li>Yeast</li>
+            <li>Water</li>
+            <li>Sugar</li>
+            <li>Cooking Oil</li>
+        </ol>
+-->
+    </section>
+</main>
 
-        </section>
+<footer class="text-center text-lg-start footer-section">
+    <div class="container d-flex justify-content-center py-5">
 
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn" style="background-color:bisque; font-weight: bold;"><a
+                    href="http://facebook.com" alt='Facebook website' target="_blank"><i
+                        class="fa-brands fa-facebook"></i>
+                    Facebook</a></button>
+            <button type="button" class="btn" style=" background-color:#D3D3D3; font-weight: bold;"><a
+                    href="http://www.instagram.com" alt='Instagram website' target="_blank"><i
+                        class="fa-brands fa-instagram"></i>
+                    Instagram</a></button>
+            <button type="button" class="btn" style=" background-color:#f2f2f2;font-weight: bold;"><a
+                    href="http://twitter.com" alt='Twitter website' target="_blank"><i class="fa-brands fa-twitter"></i>
+                    Twitter</a></button>
+            <button type="button" class="btn" style=" background-color:blanchedalmond; font-weight: bold;"><a
+                    href="http://youtube.com" alt='Youtube website' target="_blank"><i class="fa-brands fa-youtube"></i>
+                    Youtube</a></button>
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2024 Copyright:
+        <a class="text-white">www.mealflow.com</a>
+    </div>
+</footer>
 
-    </main>
+<!-- Bootstrap Javascript links-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
 
-    <footer>
-
-    </footer>
-    <!-- Bootstrap Javascript links-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
+<!-- Font Awesome Javascript link -->
+<script src="https://kit.fontawesome.com/01058b62ac.js" crossorigin="anonymous"></script>
 </body>
 
 

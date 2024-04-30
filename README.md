@@ -96,10 +96,10 @@ This section contains summary information about the project, the user expections
 
 <h2 id="about-the-project">About The Project</h2>
 
-<p align="center"><a href="https://path-to-deployed-site.com">MealFlow Kitchen</a></p>
+<p align="center"><a href="https://scientistigwe.github.io/MealFlow/">MealFlow Kitchen</a></p>
 
-<a href="https://github.com/IkennaEgwim/README.md">
-<img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg" alt="Product Screenshot" width="600" height="600">
+<a  href="https://scientistigwe.github.io/MealFlow/">
+<img src="./assets/images/project-image.png"  alt="Product Screenshot" width="600" height="400" align="top">
 </a>
 
 <h2 id="ux">User Experience (UX)</h2>
@@ -159,7 +159,7 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 
 <strong>Four Values of the Agile Manifesto:</strong>
 
-- Vision 1: Customer collaboration over contract negotiation: The Team held 6 planning sessions via Google Meets platform, ensuring alignment with customer needs and prioritizing features through user story mapping.
+- Vision 1: Customer collaboration over contract negotiation: The Team held 6 sessions via Google Meets platform, ensuring alignment with customer needs and prioritizing features through user story mapping.
   <a href="https://github.com/IkennaEgwim/README.md">
   <img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg" alt="Product Screenshot" width="400" height="300">
   </a>
@@ -172,7 +172,7 @@ This project was implemented using the Agile Manifesto methodology. Below are th
   <img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg" alt="Product Screenshot" width="400" height="300">
   </a>
 
-- Vision 3: Working software over comprehensive documentation: Achieved **[number of story points]** across 3 sprints, emphasizing the focus on delivering functional software increments.
+- Vision 3: Working software over comprehensive documentation: Achieved 24 story points across 1 sprint, emphasizing the focus on delivering functional software increments.
   **A snapshot of the scrum/kanban board tracks their progress.**
   <a href="https://github.com/IkennaEgwim/README.md">
   <img src="./assets/images/Egusi_soup_with_pounded_yam_and_assorted_meats.jpg" alt="Product Screenshot" width="400" height="300">
@@ -208,35 +208,11 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 
 <h1 id="project-setup">SECTION 2: PROJECT SETUP</h1>
 
-In this section, a detailed account of all requirements needed for "**name-of-project**" to be setup and running. It also includes installation instructions and a link to all necessary documentations for these tools.
+In this section, a detailed account of all requirements needed for MealFlow to be setup and running. It also includes installation instructions and a link to all necessary documentations for these tools.
 
 <h2 id="prerequisites">Prerequisites</h2>
 
-Below are the list of softwares required to setup and start using "**name-of-project**" (N/B: if no installation is required. Then write: "**name-of-project**" does not rely on any external dependencies or services.):
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-- etc
-
-<h2 id="installation">Installation</h2>
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
+MealFlow does not rely on any external dependencies or services.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
