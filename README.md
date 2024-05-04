@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/IkennaEgwim/MealFlow/README.md">
-    <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" alt="Project Logo" width="80" height="60"><img src="./assets/icons/logo.svg" alt="Project Logo" width="80" height="60">
+    <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" alt="Project Logo" width="80" height="100%"><img src="./assets/icons/logo.svg" alt="Project Logo" width="80" height="60">
     </div>
   </a>
   <h1 align="center">MealFlow</h1>
